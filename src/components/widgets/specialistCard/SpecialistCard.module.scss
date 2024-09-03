@@ -9,17 +9,31 @@
 	border-radius: 25px;
 	box-shadow: 1px 1px 10px #ababab;
 	gap: 1rem;
+	overflow: hidden;
+
+	@media (max-width: 768px) {
+        flex-direction: column;
+        gap: 0;
+    }
 
 	&__img {
 		height: 380px;
-		border-bottom-left-radius: 25px;
-		border-top-left-radius: 25px;
+
+		@media (max-width: 768px) {
+			height: max-content;
+			width: 100%;
+			border-bottom-left-radius: 0;
+			border-top-left-radius: 25px;
+			border-top-right-radius: 25px;
+			object-fit: cover;
+			object-position: center;
+		}
 	}
 
 	&__holder {
 		display: flex;
         flex-direction: column;
-		padding: 20px;
+		padding: 16px;
         gap: .5rem;
 	}
 
