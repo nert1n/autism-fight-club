@@ -13,7 +13,7 @@ const Footer = () => {
 					<div className={styles.footer__column}>
 						<p className={styles.footer__title}>Schnelle Links</p>
 						<div className={styles.footer__holder}>
-							<Link className={styles.footer__link} to={'home'}>Heim</Link>
+							<Link className={styles.footer__link} to={'/'}>Heim</Link>
 							<Link className={styles.footer__link} to={'about'}>Über uns</Link>
 						</div>
 					</div>
