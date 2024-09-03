@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1200px;
+	padding: 15px 20px;
+	margin: 0 auto;
+
+	@media (min-width: 900px) {
+		padding: 15px 40px;
+	}
+
+	&__icon {
+		height: 80px;
+	}
+
+	&__nav {
+	}
+
+	&__navbar {
+		display: none;
+
+		@media (min-width: 900px) {
+			display: flex;
+		}
+	}
+
+	&__burger {
+		display: flex;
+
+		@media (min-width: 900px) {
+			display: none;
+		}
+	}
+}
+
+.active {
+	display: flex;
+}

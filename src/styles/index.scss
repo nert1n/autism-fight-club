@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import "./base/nule";
+
+:root {
+	--color-text-dark: #4b4f58;
+	--color-button: rgb(1, 112, 185);
+}
+
+body {
+	background-color: #fafafa;
+	font-family: "Heebo", sans-serif;
+}

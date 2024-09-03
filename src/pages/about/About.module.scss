@@ -1,0 +1,22 @@
+.about {
+	margin: 5rem 0;
+
+	&__title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: var(--color-text-dark);
+		font-size: 32px;
+		font-weight: 600;
+		margin-bottom: 4rem;
+	}
+
+	&__cards {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		max-width: max-content;
+		margin: 0 auto;
+		gap: 3rem;
+	}
+}

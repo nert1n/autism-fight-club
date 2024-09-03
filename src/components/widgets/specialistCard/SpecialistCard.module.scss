@@ -1,0 +1,41 @@
+.card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1100px;
+	background-color: white;
+	color: var(--color-text-dark);
+	border-radius: 25px;
+	box-shadow: 1px 1px 10px #ababab;
+	gap: 1rem;
+
+	&__img {
+		height: 380px;
+		border-bottom-left-radius: 25px;
+		border-top-left-radius: 25px;
+	}
+
+	&__holder {
+		display: flex;
+        flex-direction: column;
+		padding: 20px;
+        gap: .5rem;
+	}
+
+	&__title {
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	&__info {
+		color: var(--color-button);
+		font-size: 16px;
+		margin-bottom: 1rem;
+	}
+
+	&__description {
+		color: black;
+	    font-size: 14px;
+	}
+}

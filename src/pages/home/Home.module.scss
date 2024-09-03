@@ -1,0 +1,12 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+	margin: 5rem 0;
+
+	&__video {
+		width: 100%;
+		box-shadow: 1px 1px 10px #b6b6b6;
+		border-radius: 10px;
+	}
+}
