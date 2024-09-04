@@ -25,8 +25,11 @@ const EazyProgram = () => {
 						<p className={styles.program__list_text}>Übungen aus der psychomotorischen Ganzheitstherapie nach Dr. Kannegießer-Leitner</p>
 					</div>
 				</div>
-				<MainButton className={styles.program__button} type={'border'}>Jetzt anmelden</MainButton>
-			</div>
+				<a href="#contact">
+					<MainButton className={styles.program__button} type={'border'}>
+						Jetzt anmelden
+					</MainButton>
+				</a></div>
 		</div>
 	);
 };

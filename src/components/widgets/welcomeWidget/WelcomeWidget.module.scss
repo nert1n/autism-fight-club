@@ -11,15 +11,16 @@
 	&__info {
 		display: flex;
 		flex-direction: column;
-		gap: 20px;
+		gap: 1rem;
 	}
 
 	&__title {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-weight: 500;
 	}
 
 	&__description {
+		font-size: 1.25rem;
 		line-height: 1.625rem;
     }
 
@@ -64,5 +65,29 @@
             padding: 0 8%;
 			max-width: 400px;
         }
+	}
+
+	&__lists {
+		display: flex;
+		flex-direction: column;
+		gap: .5rem;
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		gap: 0.5rem;
+
+		&_icon {
+
+		}
+
+		&_text {
+			font-size: 1rem;
+			font-weight: 600;
+		}
 	}
 }
