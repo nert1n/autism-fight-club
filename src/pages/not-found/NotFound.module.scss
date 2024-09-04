@@ -1,0 +1,33 @@
+.notfound {
+	background-color: white;
+	box-shadow: 1px 1px 10px #d1d1d1;
+	border-radius: 15px;
+	padding: 40px;
+	margin: 7.5rem 0;
+
+	&__title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 3rem;
+		font-weight: 600;
+		color: #d01818;
+	}
+
+	&__text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2rem;
+		color: var(--color-text-dark);
+	}
+
+	&__button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.5rem;
+		margin: 1rem auto 0;
+		width: 40%;
+	}
+}

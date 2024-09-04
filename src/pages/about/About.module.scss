@@ -1,5 +1,9 @@
 .about {
-	margin: 5rem 0;
+	margin: 7.5rem 0;
+
+	@media (max-width: 768px) {
+		margin: 4rem 0;
+	}
 
 	&__title {
 		display: flex;

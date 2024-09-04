@@ -4,7 +4,7 @@ import MainButton from '../../ui/mainButton/index.jsx';
 const EazyProgram = () => {
 	return (
 		<div className={styles.program}>
-			<img className={styles.program__image} src={'/image2.png'} alt="Image" />
+			<img className={styles.program__image} src={'/brain-2.png'} alt="Image" />
 			<div className={styles.program__holder}>
 				<h1 className={styles.program__title}>In unserem speziellen Kampfsportangebot sind folgende Methoden integriert:</h1>
 				<div className={styles.program__lists}>

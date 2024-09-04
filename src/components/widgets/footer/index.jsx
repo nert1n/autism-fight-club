@@ -22,11 +22,11 @@ const Footer = () => {
 						<div className={styles.footer__holder}>
 							<p>Sporthalle</p>
 							<p>Georg-Simon-Ohm-Berufskolleg</p>
-							<p>Westerwaldstraße 92</p>
+							<p>Westerwaldstraße 92</p> 
 							<p>51105 Köln</p>
 						</div>
 					</div>
-					<div className={styles.footer__column}>
+					<div id='contact' className={styles.footer__column}>
 						<p className={styles.footer__title}>Kontakt</p>
 						<div className={styles.footer__holder}>
 							<p>Trainingszeit:</p>

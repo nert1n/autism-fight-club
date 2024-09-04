@@ -1,8 +1,13 @@
 .home {
 	display: flex;
 	flex-direction: column;
-	gap: 5rem;
-	margin: 5rem 0;
+	gap: 7.5rem;
+	margin: 7.5rem 0;
+
+	@media (max-width: 768px) {
+		gap: 4rem;
+		margin: 4rem 0;
+	}
 
 	&__video {
 		width: 100%;
