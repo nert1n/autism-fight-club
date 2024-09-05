@@ -16,10 +16,10 @@ const Header = () => {
 			<Link to={'/'}><img className={styles.header__icon} src="/logo.jpg" alt="Company logo" /></Link>
 			<div className={styles.header__nav}>
 				<div className={`${styles.header__navbar} ${isOpen && styles.active}`}>
-					<NavBar />
+					<NavBar changeOpen={changeOpen}/>
 				</div>
 				<div className={styles.header__burger}>
-					<BurgerButton changeOpen={changeOpen}/>
+					<BurgerButton changeOpen={changeOpen} isOpen={isOpen}/>
 				</div>
 			</div>
 		</header>

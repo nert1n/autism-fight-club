@@ -2,11 +2,16 @@ import styles from './NavBar.module.scss';
 import { Link, useLocation } from 'react-router-dom';
 import MainButton from '../../ui/mainButton/index.jsx';
 
-const NavBar = () => {
+const NavBar = ({ changeOpen }) => {
 	const location = useLocation()
 
+
+	const changingOpen = () => {
+		changeOpen(false);
+	}
+
 	return (
-		<nav className={styles.nav}>
+		<nav onClick={() => changingOpen()} className={styles.nav}>
 			<Link className={`${styles.nav__link} ${location.pathname === '/' && styles.active}`} to={'/'}>
 				Heim
 			</Link>

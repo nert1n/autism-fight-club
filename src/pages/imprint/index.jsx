@@ -48,7 +48,7 @@ const ImprintPage = () => {
 										und Vollständigkeit der bereitgestellten Informationen und vorliegenden Inhalte dieser Website wird
 										nicht übernommen. Haftungsansprüche, welche durch die Nutzung oder Nichtnutzung der dargebotenen
 										Informationen oder durch fehlerhafte und unvollständige Informationen verursacht wurden, sind
-										grundsätzlich ausgeschlossen. Tabaksucht.de behält sich ausdrücklich das Recht vor, Teile der Seite
+										grundsätzlich ausgeschlossen. Autismus-Kampfclub behält sich ausdrücklich das Recht vor, Teile der Seite
 										oder das gesamte Angebot ohne vorherige Ankündigung zu verändern, zu ergänzen, zu löschen oder die
 										Veröffentlichung einzustellen. Hiermit distanzieren wir uns ausdrücklich von den Inhalten aller
 										gelinkten Seiten auf dieser Webseite und machen uns diese Inhalte nicht zu eigen. Diese Erklärung
