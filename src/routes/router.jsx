@@ -2,6 +2,7 @@ import Layout from '../layout/index.jsx';
 import HomePage from '../pages/home/index.jsx';
 import AboutPage from '../pages/about/index.jsx';
 import NotFoundPage from '../pages/not-found/index.jsx';
+import ImprintPage from '../pages/imprint/index.jsx';
 
 export const routes = [
 	{
@@ -21,5 +22,9 @@ export const routes = [
 				element: <NotFoundPage />,
 			},
 		],
+	},
+	{
+		path: "imprint",
+		element: <ImprintPage />,
 	},
 ];

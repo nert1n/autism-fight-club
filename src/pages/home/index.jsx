@@ -14,7 +14,7 @@ const HomePage = () => {
 				src={'/video.mp4'}
 				controls={true}
 				controlsList="nodownload"
-				poster={'/logo.png'}
+				poster={'/logo.jpg'}
 			/>
 			<Symptoms />
 			<HelpYou />

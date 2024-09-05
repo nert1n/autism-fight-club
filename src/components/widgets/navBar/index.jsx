@@ -7,10 +7,17 @@ const NavBar = () => {
 
 	return (
 		<nav className={styles.nav}>
-			<Link className={`${styles.nav__link} ${location.pathname === '/' && styles.active}`} to={''}>Heim</Link>
-			<Link className={`${styles.nav__link} ${location.pathname === '/about' && styles.active}`} to={'about'}>Über uns</Link>
+			<Link className={`${styles.nav__link} ${location.pathname === '/' && styles.active}`} to={''}>
+				Heim
+			</Link>
+			<Link className={`${styles.nav__link} ${location.pathname === '/about' && styles.active}`} to={'about'}>
+				Über uns
+			</Link>
+			<Link className={`${styles.nav__link} ${location.pathname === '/imprint' && styles.active}`} to={'imprint'}>
+				Impressum
+			</Link>
 			<div  className={styles.nav__link}>
-				<Link to={'about'}>
+				<Link to='imprint'>
 					<MainButton type="border">Jetzt informieren</MainButton>
 				</Link>
 			</div>

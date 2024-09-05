@@ -13,7 +13,7 @@ const Header = () => {
 
 	return (
 		<header className={styles.header}>
-			<Link to={'/'}><img className={styles.header__icon} src="/logo.png" alt="Company logo" /></Link>
+			<Link to={'/'}><img className={styles.header__icon} src="/logo.jpg" alt="Company logo" /></Link>
 			<div className={styles.header__nav}>
 				<div className={`${styles.header__navbar} ${isOpen && styles.active}`}>
 					<NavBar />
