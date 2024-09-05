@@ -14,7 +14,8 @@ const Footer = () => {
 						<p className={styles.footer__title}>Schnelle Links</p>
 						<div className={styles.footer__holder}>
 							<Link className={styles.footer__link} to={'/'}>Heim</Link>
-							<Link className={styles.footer__link} to={'about'}>Über uns</Link>
+							<Link className={styles.footer__link} to={'/about'}>Über uns</Link>
+							<Link className={styles.footer__link} to={'/imprint'}>Impressum</Link>
 						</div>
 					</div>
 					<div className={styles.footer__column}>

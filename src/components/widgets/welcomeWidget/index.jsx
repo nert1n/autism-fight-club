@@ -1,5 +1,6 @@
 import styles from './WelcomeWidget.module.scss';
 import MainButton from '../../ui/mainButton/index.jsx';
+import { Link } from 'react-router-dom';
 
 const WelcomeWidget = () => {
 	return (
@@ -31,9 +32,9 @@ const WelcomeWidget = () => {
 					</div>
 				</div>
 				<div className={styles.welcome__holder}>
-					<a href="#contact">
+					<Link to='/imprint'>
 						<MainButton className={styles.welcome__button}>Jetzt informieren</MainButton>
-					</a>
+					</Link>
 					<p className={styles.welcome__number}>0221-20473506</p>
 				</div>
 			</div>

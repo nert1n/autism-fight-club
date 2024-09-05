@@ -1,5 +1,6 @@
 import styles from './EazyProgram.module.scss';
 import MainButton from '../../ui/mainButton/index.jsx';
+import { Link } from 'react-router-dom';
 
 const EazyProgram = () => {
 	return (
@@ -25,11 +26,11 @@ const EazyProgram = () => {
 						<p className={styles.program__list_text}>Übungen aus der psychomotorischen Ganzheitstherapie nach Dr. Kannegießer-Leitner</p>
 					</div>
 				</div>
-				<a href="#contact">
+				<Link to='/imprint'>
 					<MainButton className={styles.program__button} type={'border'}>
 						Jetzt anmelden
 					</MainButton>
-				</a></div>
+				</Link></div>
 		</div>
 	);
 };

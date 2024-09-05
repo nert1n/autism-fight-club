@@ -1,5 +1,6 @@
 import styles from './HelpYou.module.scss';
 import MainButton from '../../ui/mainButton/index.jsx';
+import { Link } from 'react-router-dom';
 
 const HelpYou = () => {
 	return (
@@ -7,7 +8,7 @@ const HelpYou = () => {
 			<p className={styles.help__info}>Benötigst du Hilfe?</p>
 			<h3 className={styles.help__title}>Wir sind hier um dir zur helfen.</h3>
 			<p className={styles.help__description}>Vereinbare einen Kostenlosen Termin.</p>
-			<a href="#contact">
+			<Link to='/imprint'>
 				<MainButton className={styles.help__button}>
 					<svg
 						className={styles.help__button_icon}
@@ -24,7 +25,7 @@ const HelpYou = () => {
 					</svg>
 					<span>Jetzt Termin vereinbaren!</span>
 				</MainButton>
-			</a>
+			</Link>
 		</div>
 	);
 };
